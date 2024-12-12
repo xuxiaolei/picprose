@@ -9,6 +9,7 @@ const nextConfig = {
       ignoreBuildErrors: true,
     },
     reactStrictMode: false,
+    output: 'export',
 };
 
 export default withNextIntl(nextConfig);
